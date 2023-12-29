@@ -21,12 +21,12 @@
                 <a href="{{route('front_page404')}}" class="dropdown-item {{ (request()->is('404')) ? 'active' : '' }}">{{ trans('menu.page404') }}</a>
             </div>
         </div>
-        <a href="{{route('front_contact')}}" class="nav-item nav-link" {{ (request()->is('contact')) ? 'active' : '' }}>{{ trans('menu.contact') }}</a>
+        <a href="{{route('front_contact')}}" class="nav-item nav-link {{ (request()->is('contact')) ? 'active' : '' }}">{{ trans('menu.contact') }}</a>
         <?php
         $flag = app()->getlocale();
         if ($flag == 'en') {
             $flag = 'us';
-        }git init
+        }
         ?>
         <div class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="flag-icon flag-icon-{{ $flag == 'kh' ? 'kh' : '' }}{{ $flag == 'us' ? 'us' : '' }} mr-2"></i>

@@ -36,21 +36,22 @@
                 <table id="example1" class="table table-bordered table-striped">
                     <thead>
                         <tr>
-                            <th>Rendering engine</th>
-                            <th>Browser</th>
-                            <th>Platform(s)</th>
-                            <th>Engine version</th>
+                            <th>ID</th>
+                            <th>Location</th>
+                            <th>Duration</th>
+                            <th>Guest</th>
+                            <th>Amounts</th>
                             <th>Options</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Trident</td>
-                            <td>Internet
-                                Explorer 4.0
+                            <td>001</td>
+                            <td>Siem Reap
                             </td>
-                            <td>Win 95+</td>
-                            <td> 4</td>
+                            <td>3 Day</td>
+                            <td> 4 Paxs</td>
+                            <td>350$</td>
                             <td>
                                 <a href="#" class="btn btn-success"><i class="fa fa-eye"></i> View</a>
                                 <a href="#" class="btn btn-primary"><i class="fa fa-edit"></i> Edit</a>
@@ -59,11 +60,12 @@
                     </tbody>
                     <tfoot>
                         <tr>
-                            <th>Rendering engine</th>
-                            <th>Browser</th>
-                            <th>Platform(s)</th>
-                            <th>Engine version</th>
-                            <th>CSS grade</th>
+                            <th>ID</th>
+                            <th>Location</th>
+                            <th>Duration</th>
+                            <th>Guest</th>
+                            <th>Amounts</th>
+                            <th>Options</th>
                         </tr>
                     </tfoot>
                 </table>

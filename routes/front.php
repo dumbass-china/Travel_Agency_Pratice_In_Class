@@ -14,7 +14,7 @@ Route::get('front_master',function () {
 
 Route::get('admins',function () {
     // return view('layouts.master_app');
-    return view('admin.services.index');
+    return view('admin.package.index');
 });
 
 
@@ -29,3 +29,6 @@ Route::get('/booking', [FrontPageController::class, 'booking'])->name('front_boo
 Route::get('/guides', [FrontPageController::class, 'guides'])->name('front_guides');
 Route::get('/testimonial', [FrontPageController::class, 'testimonial'])->name('front_testimonial');
 Route::get('/page404', [FrontPageController::class, 'page404'])->name('front_page404');
+
+
+
